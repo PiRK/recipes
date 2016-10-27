@@ -1,5 +1,7 @@
 The examples in this folder show how to generate manylinux wheels for python libraries, for 32-bit and 64-bit architectures, and for several versions of python (2.7, 3.4, 3.5).
 
+The basic information you need to know about manylinux wheels, and using docker images to generate them, is summarized in manylinux.rst 
+
 The scripts for the silx wheels can be used as a base for any python library that provides a setup.py file to build the wheels with ``pip wheel``.
 
 The PyQt4 example shows how to generate a wheel *manually* from an installed library, including non-python dependencies.
